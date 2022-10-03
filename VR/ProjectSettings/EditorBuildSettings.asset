@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/RunwayStreet.unity
+    guid: 67736a867dba05345add938a61e50153
+  - enabled: 1
+    path: Assets/Scenes/RunwayVoid.unity
+    guid: 8dc4958adadd2aa4da09be2a13cfb4b1
+  - enabled: 1
+    path: Assets/Scenes/RunwayWarehouse.unity
+    guid: 7d3b40fbe0ea0bc448510fec083e15c7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
