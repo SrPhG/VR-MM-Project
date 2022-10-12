@@ -24,6 +24,7 @@ public class AnimatedAssets : MonoBehaviour
     {
         //myPlatform.position = Vector3.MoveTowards(myPlatform.position, myEndPoint.position, speed);
 
+
         if (isReversing == false)
         {
             myPlatform.position = Vector3.MoveTowards(myPlatform.position, myEndPoint.position, speed);
