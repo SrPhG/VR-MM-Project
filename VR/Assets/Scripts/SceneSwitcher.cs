@@ -5,13 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    private void Update()
+    void Update()
     {
-        if (Input.GetKey("")) 
-        {
-            Debug.Log("hello");
-            //SceneManager.LoadScene(1);
-        }
+        SceneManager.LoadScene("RunwayVoid");
     }
 
 }
