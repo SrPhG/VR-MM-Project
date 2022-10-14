@@ -6,9 +6,11 @@ using UnityEngine.XR;
 public class AnimatedAssets : MonoBehaviour
 {
 
-    public Transform myPlatform;
+    public Transform person;
     public Transform myStartPoint;
     public Transform myEndPoint;
+    public Transform[] points;
+    public int nextPoint = 1;
 
     public float speed;
 
@@ -17,29 +19,34 @@ public class AnimatedAssets : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myPlatform.position = myStartPoint.position;
+        person.position = points[0].position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //myPlatform.position = Vector3.MoveTowards(myPlatform.position, myEndPoint.position, speed);
+        //person.position = Vector3.MoveTowards(person.position, myEndPoint.position, speed);
+
 
 
         if (isReversing == false)
         {
-            myPlatform.position = Vector3.MoveTowards(myPlatform.position, myEndPoint.position, speed);
+            person.position = Vector3.MoveTowards(person.position, points[nextPoint].position, speed);
 
-            if (myPlatform.position == myEndPoint.position)
+            if (person.position == points[nextPoint].position)
             {
-                isReversing = true;
+                if (points.Length > nextPoint-1)
+                {
+                    nextPoint++;
+                }
+                //isReversing = true;
             }
         }
         else
         {
-            myPlatform.position = Vector3.MoveTowards(myPlatform.position, myStartPoint.position, speed);
+            person.position = Vector3.MoveTowards(person.position, points[0].position, speed);
 
-            if (myPlatform.position == myStartPoint.position)
+            if (person.position == points[0].position)
             {
                 isReversing = false;
             }
