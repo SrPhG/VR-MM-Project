@@ -219,9 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31951f0e39f1b2d4381c45cc90e56f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlatform: {fileID: 135455121}
-  myStartPoint: {fileID: 1678993921}
-  myEndPoint: {fileID: 1041075002}
+  points: []
+  nextPoint: 1
   speed: 0.00007
 --- !u!64 &135455124
 MeshCollider:
@@ -289,9 +288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31951f0e39f1b2d4381c45cc90e56f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlatform: {fileID: 237503895}
-  myStartPoint: {fileID: 1043099793}
-  myEndPoint: {fileID: 487576174}
+  points: []
+  nextPoint: 1
   speed: 0.00002
 --- !u!64 &237503897
 MeshCollider:
@@ -527,9 +525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31951f0e39f1b2d4381c45cc90e56f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlatform: {fileID: 715532801}
-  myStartPoint: {fileID: 1261765874}
-  myEndPoint: {fileID: 1783995710}
+  points: []
+  nextPoint: 1
   speed: 0.00005
 --- !u!64 &715532803
 MeshCollider:
@@ -674,9 +671,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31951f0e39f1b2d4381c45cc90e56f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlatform: {fileID: 748966341}
-  myStartPoint: {fileID: 1882614844}
-  myEndPoint: {fileID: 1577264281}
+  points: []
+  nextPoint: 1
   speed: 0.00008
 --- !u!1 &777516836
 GameObject:
@@ -1474,9 +1470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31951f0e39f1b2d4381c45cc90e56f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlatform: {fileID: 1097276176}
-  myStartPoint: {fileID: 1252496213}
-  myEndPoint: {fileID: 1402160727}
+  points: []
+  nextPoint: 1
   speed: 0.00001
 --- !u!1 &1152814225
 GameObject:
@@ -1523,9 +1518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31951f0e39f1b2d4381c45cc90e56f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlatform: {fileID: 1152814226}
-  myStartPoint: {fileID: 865097320}
-  myEndPoint: {fileID: 1462334353}
+  points: []
+  nextPoint: 1
   speed: 0.00009
 --- !u!1 &1176039816
 GameObject:
@@ -1804,9 +1798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31951f0e39f1b2d4381c45cc90e56f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlatform: {fileID: 1534697919}
-  myStartPoint: {fileID: 1428594105}
-  myEndPoint: {fileID: 842059533}
+  points: []
+  nextPoint: 1
   speed: 0.0002
 --- !u!64 &1534697921
 MeshCollider:
@@ -2032,9 +2025,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31951f0e39f1b2d4381c45cc90e56f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPlatform: {fileID: 1599098706}
-  myStartPoint: {fileID: 385346026}
-  myEndPoint: {fileID: 592338911}
+  points: []
+  nextPoint: 1
   speed: 0.0001
 --- !u!64 &1599098708
 MeshCollider:
@@ -3544,7 +3536,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3605244756820203723, guid: 421030f43f7c5d740a96198087c2527e, type: 3}
+  - {fileID: 2100000, guid: 273cbe3d6ee4d2e4183705eab76f6b19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

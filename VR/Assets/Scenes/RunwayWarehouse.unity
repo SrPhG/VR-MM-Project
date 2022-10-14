@@ -4368,7 +4368,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: cafde24e3726e5642ae46f0067c7b4e4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.1189356
+      value: -4.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cafde24e3726e5642ae46f0067c7b4e4,
         type: 3}
@@ -5010,7 +5010,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.2
+  m_Intensity: 1.1
   m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5912,7 +5912,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d6d4329ad31ee1c4da1007ec4eeb069c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 73508cc94f42eb84ab33217ceb400c14, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -9584,8 +9584,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483890791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.22, y: 3.197, z: 3.74}
-  m_LocalScale: {x: 0.6929117, y: 0.77505356, z: 0.7954851}
+  m_LocalPosition: {x: -5.8675, y: 3.2131, z: 3.5723}
+  m_LocalScale: {x: 0.646747, y: 0.797065, z: 0.75507444}
   m_Children:
   - {fileID: 27087392}
   - {fileID: 105271739}
