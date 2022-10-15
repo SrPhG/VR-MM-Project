@@ -18,8 +18,8 @@ EditorBuildSettings:
     path: Assets/Scenes/RunwayWarehouse.unity
     guid: 7d3b40fbe0ea0bc448510fec083e15c7
   - enabled: 1
-    path: Assets/Scenes/Character Animation.unity
-    guid: 6621064b52238f54398d3971b83fed7a
+    path: Assets/Scenes/RunwayGallery.unity
+    guid: d85b5aced6930564b90fa136f446ad23
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
