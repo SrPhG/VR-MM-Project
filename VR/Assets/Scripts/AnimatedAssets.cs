@@ -28,7 +28,7 @@ public class AnimatedAssets : MonoBehaviour
 
             if (person.position == points[nextPoint].position)
             {
-                if (points.Length > nextPoint+1)
+                if (points.Length > nextPoint + 1)
                 {
                     nextPoint++;
                 }
