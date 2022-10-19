@@ -9,6 +9,7 @@ public class AnimatedAssets : MonoBehaviour
     Transform person;
     public Transform[] points;
     public int nextPoint = 1;
+    public float rotationSpeed = 1.0f; // change this to what u think is good
 
     public float speed;
 
@@ -25,18 +26,16 @@ public class AnimatedAssets : MonoBehaviour
         if (person.position != points[nextPoint].position)
         {
             person.position = Vector3.MoveTowards(person.position, points[nextPoint].position, speed);
-
-            if (person.position == points[nextPoint].position)
-            {
-                if (points.Length > nextPoint + 1)
-                {
-                    nextPoint++;
-                }
-            }
+            person.rotation = Quaternion.Slerp(person.rotation, Quaternion.LookRotation((points[nextPoint].position - person.position).normalized), Time.deltaTime * rotationSpeed);
         }
         else
         {
-            Destroy(person.gameObject);
+            nextPoint++;
+            if (nextPoint > points.Length - 1)
+            {
+                // finished
+                Destroy(gameObject);
+            }
         }
     }
 }
