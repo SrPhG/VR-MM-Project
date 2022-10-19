@@ -649,7 +649,7 @@ MonoBehaviour:
   - {fileID: 0}
   nextPoint: 1
   rotationSpeed: 5
-  speed: 0.05
+  speed: 0.1
 --- !u!1 &6039859219138417074
 GameObject:
   m_ObjectHideFlags: 0
