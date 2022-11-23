@@ -7,7 +7,7 @@ public class sceneswitch3 : MonoBehaviour
 {
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.W))
+		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			Application.LoadLevel("RunwayGallery");
 		}
